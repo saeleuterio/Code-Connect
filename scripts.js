@@ -72,10 +72,10 @@ inputTags.addEventListener("keypress", async (evento) => {
                     listaTags.appendChild(tagNova);
                     inputTags.value = "";
                 } else {
-                    alert("Tag não foi encontrada");
-                }    
+                    alert("Tag não foi encontrada.");
+                }
             } catch (error) {
-                console.error("Erro ao verificar a existência da tag.");
+                console.error("Erro ao verificar a existência da tag");
                 alert("Erro ao verificar a existência da tag. Verifique o console.")
             }
         }
